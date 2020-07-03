@@ -1,6 +1,6 @@
-import React from 'react';
-import './App.css';
-import Phones from "./components/Phones/Phones";
+import React from "react";
+import "./App.css";
+import { Phones } from "./containers/";
 
 function App() {
   return (

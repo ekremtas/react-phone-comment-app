@@ -1,3 +1,3 @@
 import Phone from "./Phone";
 
-export {Phone};
+export default Phone;

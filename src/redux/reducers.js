@@ -16,7 +16,7 @@ export const commentsReducer = (state = initialState, action) => {
       return {
         ...state,
         loading: { ...state.loading, phones_page: false },
-        phones: [action.payload]
+        phones: action.payload
       };
     default:
       return state;
