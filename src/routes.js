@@ -1,5 +1,5 @@
 import React from "react";
-import { Phones , Homepage} from "./containers";
+import { Phones , Homepage, Detail} from "./containers";
 
 const routes = [
     {
@@ -12,6 +12,18 @@ const routes = [
         path: "/phones",
         exact: false,
         component: Phones,
+        title: Phones
+    },
+    {
+        path: "/detail/:id",
+        exact: false,
+        component: Detail,
+        title: Phones
+    },
+    {
+        path: "/about",
+        exact: false,
+        component: Detail,
         title: Phones
     },
     {

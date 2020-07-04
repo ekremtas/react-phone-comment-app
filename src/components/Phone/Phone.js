@@ -9,6 +9,7 @@ import {
   CardSubtitle,
   Col
 } from "reactstrap";
+import { Link } from "react-router-dom";
 
 const Phone = (props) => {
   return (
@@ -29,7 +30,7 @@ const Phone = (props) => {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </CardText>
-          <Button>Go commments</Button>
+          <Button tag={Link} to={`/detail/${props.phone_data.id}`}>Go commments</Button>
         </CardBody>
       </Card>
     </Col>

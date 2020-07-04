@@ -20,14 +20,24 @@ const NavigationBar = () => {
     <div>
       <Navbar color="light" light expand="md">
         <NavbarBrand tag={Link} to="/react-phone-comment-app/">
-          BlueYorum
+          BlueYorum.Com
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
+              <NavLink tag={Link} to="/react-phone-comment-app/">
+                Homepage
+              </NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink tag={Link} to="/phones">
                 Phones
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink tag={Link} to="/about">
+                About Us
               </NavLink>
             </NavItem>
             <NavItem>

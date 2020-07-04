@@ -20,7 +20,7 @@ const items = [
     width:'100%'
   },
   {
-    src: 'https://www.lifehacker.com.au/content/uploads/sites/4/2020/04/Iphonese.jpg',
+    src: 'https://businesblog.com/wp-content/uploads/2020/04/iphone-se-2020-00_large.jpg',
     altText: 'IPHONE SE',
     caption: 'APPLE',
     header: 'IPHONE SE',

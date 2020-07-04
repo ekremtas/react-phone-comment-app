@@ -21,3 +21,19 @@ export const getPhones = () => {
       });
   };
 };
+
+export const getComments = () => {
+  return (dispatch) => {
+    axios
+      .get(`${apiHost}/comments`)
+      .then((result) => {
+        dispatch({
+          type: Actions.GET_COMMENTS,
+          payload: result.data,
+        });
+      })
+      .catch((err) => {
+        console.log("Axios err", err);
+      });
+  };
+};
