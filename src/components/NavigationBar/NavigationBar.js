@@ -18,7 +18,7 @@ const NavigationBar = () => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
+      <Navbar color="light" light expand="xl">
         <NavbarBrand tag={Link} to="/react-phone-comment-app/">
           BlueYorum.Com
         </NavbarBrand>

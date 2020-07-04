@@ -1,5 +1,5 @@
 import React from "react";
-import { Phones, Homepage, Detail, About } from "./containers";
+import { Phones, Homepage, Detail, About, AddPhonepage } from "./containers";
 
 const routes = [
   {
@@ -29,13 +29,7 @@ const routes = [
   {
     path: "/add-phone",
     exact: false,
-    component: () => {
-      return (
-        <div>
-          <h1>TElefon Ekleeeeee</h1>
-        </div>
-      );
-    },
+    component: AddPhonepage,
     title: Phones,
   },
 ];
