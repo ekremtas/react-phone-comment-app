@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-phone-comment-app/static/css/main.5f361e03.chunk.css",
-    "main.js": "/react-phone-comment-app/static/js/main.d0cf1e20.chunk.js",
-    "main.js.map": "/react-phone-comment-app/static/js/main.d0cf1e20.chunk.js.map",
-    "runtime-main.js": "/react-phone-comment-app/static/js/runtime-main.db2cba24.js",
-    "runtime-main.js.map": "/react-phone-comment-app/static/js/runtime-main.db2cba24.js.map",
-    "static/css/2.92a0e85f.chunk.css": "/react-phone-comment-app/static/css/2.92a0e85f.chunk.css",
-    "static/js/2.099945d6.chunk.js": "/react-phone-comment-app/static/js/2.099945d6.chunk.js",
-    "static/js/2.099945d6.chunk.js.map": "/react-phone-comment-app/static/js/2.099945d6.chunk.js.map",
+    "main.css": "/react-phone-comment-app/static/css/main.d1b05096.chunk.css",
+    "main.js": "/react-phone-comment-app/static/js/main.0f2d8b83.chunk.js",
+    "main.js.map": "/react-phone-comment-app/static/js/main.0f2d8b83.chunk.js.map",
+    "runtime-main.js": "/react-phone-comment-app/static/js/runtime-main.3231673f.js",
+    "runtime-main.js.map": "/react-phone-comment-app/static/js/runtime-main.3231673f.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/react-phone-comment-app/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.bb69f174.chunk.js": "/react-phone-comment-app/static/js/2.bb69f174.chunk.js",
+    "static/js/2.bb69f174.chunk.js.map": "/react-phone-comment-app/static/js/2.bb69f174.chunk.js.map",
     "index.html": "/react-phone-comment-app/index.html",
-    "precache-manifest.47005051862bbaee03ade9abd59ed90b.js": "/react-phone-comment-app/precache-manifest.47005051862bbaee03ade9abd59ed90b.js",
+    "precache-manifest.f88ccae888cb1e8ddfc0880109b0acd3.js": "/react-phone-comment-app/precache-manifest.f88ccae888cb1e8ddfc0880109b0acd3.js",
     "service-worker.js": "/react-phone-comment-app/service-worker.js",
-    "static/css/2.92a0e85f.chunk.css.map": "/react-phone-comment-app/static/css/2.92a0e85f.chunk.css.map",
-    "static/css/main.5f361e03.chunk.css.map": "/react-phone-comment-app/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.099945d6.chunk.js.LICENSE.txt": "/react-phone-comment-app/static/js/2.099945d6.chunk.js.LICENSE.txt"
+    "static/css/2.17e5ed98.chunk.css.map": "/react-phone-comment-app/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.d1b05096.chunk.css.map": "/react-phone-comment-app/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.bb69f174.chunk.js.LICENSE.txt": "/react-phone-comment-app/static/js/2.bb69f174.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.db2cba24.js",
-    "static/css/2.92a0e85f.chunk.css",
-    "static/js/2.099945d6.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.d0cf1e20.chunk.js"
+    "static/js/runtime-main.3231673f.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.bb69f174.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.0f2d8b83.chunk.js"
   ]
 }
