@@ -1,3 +1,4 @@
 import Phones from "./Phones";
+import Homepage from "./Homepage";
 
-export {Phones};
+export { Phones, Homepage };

@@ -1,11 +1,11 @@
 import React from "react";
-import { Phones } from "./containers";
+import { Phones , Homepage} from "./containers";
 
 const routes = [
     {
         path: "/react-phone-comment-app/",
         exact: true,
-        component: () => {return <div><h1>Ana SAYFAAAA</h1></div>},
+        component: Homepage,
         title: Phones
     },
     {
