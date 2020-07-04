@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0adae37dee5b0a4f87d9843356dd301a",
+    "revision": "53c36260a63fd28a602bece0a1f19ea9",
     "url": "/react-phone-comment-app/index.html"
   },
   {
-    "revision": "0687327de3ab55f71397",
+    "revision": "24fc5ed4be8693631a9d",
     "url": "/react-phone-comment-app/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "492252564141b99423e7",
+    "revision": "c426e78c2adbc65f178d",
     "url": "/react-phone-comment-app/static/css/main.d1b05096.chunk.css"
   },
   {
-    "revision": "0687327de3ab55f71397",
-    "url": "/react-phone-comment-app/static/js/2.bb69f174.chunk.js"
+    "revision": "24fc5ed4be8693631a9d",
+    "url": "/react-phone-comment-app/static/js/2.86373c86.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/react-phone-comment-app/static/js/2.bb69f174.chunk.js.LICENSE.txt"
+    "url": "/react-phone-comment-app/static/js/2.86373c86.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "492252564141b99423e7",
-    "url": "/react-phone-comment-app/static/js/main.0f2d8b83.chunk.js"
+    "revision": "c426e78c2adbc65f178d",
+    "url": "/react-phone-comment-app/static/js/main.a3d772ed.chunk.js"
   },
   {
     "revision": "7f2cfb3d63ee61d4e043",
