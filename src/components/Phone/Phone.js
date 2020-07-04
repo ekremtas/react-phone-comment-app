@@ -12,7 +12,7 @@ import {
 
 const Phone = (props) => {
   return (
-    <Col md="3" className="mt-4">
+    <Col md="4" className="mt-4">
       <Card>
         <CardBody>
           <CardTitle>{props.phone_data.name}</CardTitle>
@@ -22,14 +22,14 @@ const Phone = (props) => {
           top
           width="100%"
           src={props.phone_data.image[0]}
-          alt="Card image cap"
+          alt={`${props.phone_data.name} image`}
         />
         <CardBody>
           <CardText>
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </CardText>
-          <Button>Go somewhere</Button>
+          <Button>Go commments</Button>
         </CardBody>
       </Card>
     </Col>

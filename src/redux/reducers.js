@@ -7,7 +7,7 @@ const initialState = {
 
 export const commentsReducer = (state = initialState, action) => {
   switch (action.type) {
-    case Actions.LOADING_PAGE:
+    case Actions.LOADING_PHONE_PAGE:
       return {
         ...state,
         loading: { phones_page: true },

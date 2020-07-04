@@ -1,22 +1,24 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import { getPhones } from "../../redux/actions";
-import Phone from "../../components/Phone";
-import { Container, Row } from "reactstrap";
+import { Phone } from "../../components";
+import { Row, Spinner } from "reactstrap";
+
 const Phones = (props) => {
   useEffect(() => {
-    props.getPhones();
-    console.log(props.phones);
+      props.getPhones();
   }, []);
-
+  if (props.loading.phones_page) {
+    return <Spinner className="mt-5" color="info" />;
+  }
   return (
-    <Container>
+    <>
       <Row>
         {props.phones.map((phone) => {
           return <Phone key={phone.id} phone_data={phone} />;
         })}
       </Row>
-    </Container>
+    </>
   );
 };
 

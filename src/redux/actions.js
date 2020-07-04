@@ -6,7 +6,7 @@ const apiHost = "https://5ea5689e2d86f00016b45bf7.mockapi.io";
 export const getPhones = () => {
   return (dispatch) => {
     dispatch({
-      type: Actions.LOADING_PAGE,
+      type: Actions.LOADING_PHONE_PAGE,
     });
     axios
       .get(`${apiHost}/phones`)

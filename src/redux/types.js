@@ -1,2 +1,2 @@
 export const GET_PHONES = "GET_PHONES";
-export const LOADING_PAGE = "LOADING_PAGE";
+export const LOADING_PHONE_PAGE = "LOADING_PHONE_PAGE";

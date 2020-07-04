@@ -1,12 +1,28 @@
 import React from "react";
 import "./App.css";
-import { Phones } from "./containers/";
+import { NavigationBar } from "./components";
+import { Container } from "reactstrap";
+import { Switch, Route } from "react-router-dom";
+import routes from "./routes";
 
 function App() {
   return (
     <div className="App">
-      <Phones />
-      Big Project
+      <Container>
+        <NavigationBar />
+
+        <Switch>
+          {routes.map((route) => {
+            return (
+              <Route
+                path={route.path}
+                exact={route.exact}
+                component={route.component}
+              />
+            );
+          })}
+        </Switch>
+      </Container>
     </div>
   );
 }

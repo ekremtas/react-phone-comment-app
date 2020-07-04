@@ -1,3 +1,4 @@
 import Phone from "./Phone";
+import NavigationBar from "./NavigationBar";
 
-export {Phone};
+export { Phone, NavigationBar };
