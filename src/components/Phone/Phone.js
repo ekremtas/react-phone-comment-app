@@ -27,8 +27,7 @@ const Phone = (props) => {
         />
         <CardBody>
           <CardText>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Some quick example text to ...
           </CardText>
           <Button tag={Link} to={`/detail/${props.phone_data.id}`}>Go commments</Button>
         </CardBody>
@@ -37,5 +36,13 @@ const Phone = (props) => {
   );
 };
 
+Phone.defaultProps = {
+  phone_data : {
+    name: "Phone Name",
+    brand: "Brand Name",
+    id: 0,
+    image: "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/APPLE/thumb/TeoriV2-103970-9_large.jpg"
+  }
+}
 
 export default Phone;

@@ -14,6 +14,7 @@ import {
   Button,
 } from "reactstrap";
 import { PageInfo } from "../../components";
+import { FormBorder } from "./styles";
 
 const validationSchema = Yup.object().shape({
   name: Yup.string().required("Phone Name is a required field").min(2),
@@ -60,10 +61,9 @@ const AddPhonepage = (props) => {
       onSubmit={(data, { setSubmitting, resetForm }) => {
         setSubmitting(true);
         props.addPhone(data);
-          setSubmitting(false);
-          resetForm();
-          alert("Form successfully submitted And Reseted Form");
-        
+        setSubmitting(false);
+        resetForm();
+        alert("Form successfully submitted And Reseted Form");
       }}
     >
       {({
@@ -80,7 +80,7 @@ const AddPhonepage = (props) => {
             title="ADD NEW PHONE"
             image="https://images.unsplash.com/photo-1570963904764-fff966562bbd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
           />{" "}
-          <div className="p-4" style={{ border: "1px solid gray" }}>
+          <FormBorder>
             <Row>
               <Col md="12">
                 <MyTextInput
@@ -121,7 +121,7 @@ const AddPhonepage = (props) => {
             <Button color="dark" disabled={isSubmitting} type="submit">
               Submit
             </Button>
-          </div>
+          </FormBorder>
         </Form>
       )}
     </Formik>
