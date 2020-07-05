@@ -49,7 +49,16 @@ $ yarn start
 You can run the project with.
 
 # Sample Picture from the Project
+
+Homepage screenshot
+
 ![](src/images/project_photo_1.png)
+
+Phones page screenshot
+
 ![](src/images/project_photo_2.png)
+
+AddPhone page screenshot
+
 ![](src/images/project_photo_3.png)
 
