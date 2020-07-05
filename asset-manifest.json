@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-phone-comment-app/static/css/main.d1b05096.chunk.css",
-    "main.js": "/react-phone-comment-app/static/js/main.78c043d7.chunk.js",
-    "main.js.map": "/react-phone-comment-app/static/js/main.78c043d7.chunk.js.map",
+    "main.js": "/react-phone-comment-app/static/js/main.85d7d8bf.chunk.js",
+    "main.js.map": "/react-phone-comment-app/static/js/main.85d7d8bf.chunk.js.map",
     "runtime-main.js": "/react-phone-comment-app/static/js/runtime-main.3231673f.js",
     "runtime-main.js.map": "/react-phone-comment-app/static/js/runtime-main.3231673f.js.map",
     "static/css/2.17e5ed98.chunk.css": "/react-phone-comment-app/static/css/2.17e5ed98.chunk.css",
     "static/js/2.b8431466.chunk.js": "/react-phone-comment-app/static/js/2.b8431466.chunk.js",
     "static/js/2.b8431466.chunk.js.map": "/react-phone-comment-app/static/js/2.b8431466.chunk.js.map",
     "index.html": "/react-phone-comment-app/index.html",
-    "precache-manifest.fc8c24a06dbd3298aa7b3efae5742820.js": "/react-phone-comment-app/precache-manifest.fc8c24a06dbd3298aa7b3efae5742820.js",
+    "precache-manifest.f883137aaf1126b838c7196e715a0617.js": "/react-phone-comment-app/precache-manifest.f883137aaf1126b838c7196e715a0617.js",
     "service-worker.js": "/react-phone-comment-app/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/react-phone-comment-app/static/css/2.17e5ed98.chunk.css.map",
     "static/css/main.d1b05096.chunk.css.map": "/react-phone-comment-app/static/css/main.d1b05096.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.b8431466.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.78c043d7.chunk.js"
+    "static/js/main.85d7d8bf.chunk.js"
   ]
 }
