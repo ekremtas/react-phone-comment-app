@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ec45bbf109aaf0d3b7df0b8c5c043fa8",
+    "revision": "f9189db5d0ed01044c6f020277361387",
     "url": "/react-phone-comment-app/index.html"
   },
   {
-    "revision": "b95d9057abf8894c2b53",
+    "revision": "4fd91c19cec0a8502593",
     "url": "/react-phone-comment-app/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "af3aa45445954e3f8d3f",
+    "revision": "4ef6ef1cf0e8cb0a6bb9",
     "url": "/react-phone-comment-app/static/css/main.d1b05096.chunk.css"
   },
   {
-    "revision": "b95d9057abf8894c2b53",
-    "url": "/react-phone-comment-app/static/js/2.3f7617ae.chunk.js"
+    "revision": "4fd91c19cec0a8502593",
+    "url": "/react-phone-comment-app/static/js/2.b8431466.chunk.js"
   },
   {
     "revision": "cacaf3f01dd3bd8237006f7c58951c1c",
-    "url": "/react-phone-comment-app/static/js/2.3f7617ae.chunk.js.LICENSE.txt"
+    "url": "/react-phone-comment-app/static/js/2.b8431466.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "af3aa45445954e3f8d3f",
-    "url": "/react-phone-comment-app/static/js/main.8374f32c.chunk.js"
+    "revision": "4ef6ef1cf0e8cb0a6bb9",
+    "url": "/react-phone-comment-app/static/js/main.78c043d7.chunk.js"
   },
   {
     "revision": "7f2cfb3d63ee61d4e043",
