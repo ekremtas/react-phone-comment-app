@@ -4,7 +4,7 @@ import {
 } from "reactstrap";
 const items = [
   {
-    src: 'https://www.cinema5d.com/wp-content/uploads/2019/09/iphone-11-final.jpg',
+    src: 'https://images.unsplash.com/photo-1570976278927-39de20093775?ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&h=720&q=80',
     altText: 'IPHONE 11 PRO',
     caption: 'APPLE',
     header: 'IPHONE 11 PRO',
@@ -12,15 +12,15 @@ const items = [
     width:'100%'
   },
   {
-    src: 'https://mediatrend.mediamarkt.com.tr/wp-content/uploads/2019/10/iphone-11-inceleme.jpg',
-    altText: 'IPHONE 11',
+    src: 'https://images.unsplash.com/photo-1574675904801-eb2cca16af12?ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&h=720&q=80',
+    altText: 'IPHONE 11 SERIES',
     caption: 'APPLE',
-    header: 'IPHONE 11',
+    header: 'IPHONE 11 SERIES',
     key: '2',
     width:'100%'
   },
   {
-    src: 'https://businesblog.com/wp-content/uploads/2020/04/iphone-se-2020-00_large.jpg',
+    src: 'https://images.unsplash.com/photo-1588295207965-dded25c206c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1280&h=720&q=80',
     altText: 'IPHONE SE',
     caption: 'APPLE',
     header: 'IPHONE SE',

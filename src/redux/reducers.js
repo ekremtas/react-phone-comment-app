@@ -3,7 +3,7 @@ import * as Actions from "./types";
 const initialState = {
   phones: [],
   loading: {},
-  comments: []
+  comments: [],
 };
 
 export const commentsReducer = (state = initialState, action) => {
@@ -22,7 +22,12 @@ export const commentsReducer = (state = initialState, action) => {
     case Actions.GET_COMMENTS:
       return {
         ...state,
-        comments: action.payload
+        comments: action.payload,
+      };
+    case Actions.ADD_PHONE:
+      return {
+        ...state,
+        phones: [...state.phones, action.payload]
       };
     default:
       return state;

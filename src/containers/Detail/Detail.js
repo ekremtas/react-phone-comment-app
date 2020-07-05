@@ -13,7 +13,7 @@ const Detail = (props) => {
       <h1>{props.match.params.id} Numaralı Telefonun Yorumları</h1>
       {props.comments.map((comment) => {
         return (
-          <Card className="m-4">
+          <Card key={Number(comment.index)} className="m-4">
             <CardBody>
               <CardTitle className="h3">
                 {comment.comment_author.toUpperCase()}

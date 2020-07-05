@@ -15,6 +15,7 @@ function App() {
           {routes.map((route) => {
             return (
               <Route
+                key={Math.random()}
                 path={route.path}
                 exact={route.exact}
                 component={route.component}

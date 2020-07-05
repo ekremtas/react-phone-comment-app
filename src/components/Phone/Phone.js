@@ -22,7 +22,7 @@ const Phone = (props) => {
         <CardImg
           top
           width="100%"
-          src={props.phone_data.image[0]}
+          src={props.phone_data.image}
           alt={`${props.phone_data.name} image`}
         />
         <CardBody>
@@ -36,5 +36,6 @@ const Phone = (props) => {
     </Col>
   );
 };
+
 
 export default Phone;

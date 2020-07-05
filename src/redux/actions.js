@@ -37,3 +37,19 @@ export const getComments = () => {
       });
   };
 };
+
+export const addPhone = (phone) => {
+  return (dispatch) => {
+    axios
+      .post(`${apiHost}/phones`, phone)
+      .then((result) => {
+        dispatch({
+          type: Actions.ADD_PHONE,
+          payload: result.data,
+        });
+      })
+      .catch((err) => {
+        console.log("Axios err", err);
+      });
+  };
+};
