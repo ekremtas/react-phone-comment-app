@@ -1,68 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React & Redux with Phone Comments Application 
 
-## Available Scripts
+Response & redux; I developed with. An application where you can access comments by listing the phones.
 
-In the project directory, you can run:
+The purpose of this application is that users can access clean, accurate and understandable comments about the phone.
 
-### `yarn start`
+To present the comments obtained from various e-commerce sites using python (scrapy) technology and the comments we have classified using python (pandas) technology to users through this application.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# REST API 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+https://5ea5689e2d86f00016b45bf7.mockapi.io/phones/
 
-### `yarn test`
+https://5ea5689e2d86f00016b45bf7.mockapi.io/comments/
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Live Link of the Project
 
-### `yarn build`
+[https://ekremtas.github.io/react-phone-comment-app/](https://ekremtas.github.io/react-phone-comment-app/)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Libraries I Use
+[React](https://www.npmjs.com/package/react)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+[Redux](https://www.npmjs.com/package/redux)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[react-redux](https://www.npmjs.com/package/react-redux)
 
-### `yarn eject`
+[react-router-dom](https://www.npmjs.com/package/react-router-dom)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[redux-thunk](https://www.npmjs.com/package/redux-thunk)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Axios](https://www.npmjs.com/package/axios)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[Formik](https://jaredpalmer.com/formik/docs/overview)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[Yup](https://github.com/jquense/yup)
 
-## Learn More
+[Styled-components](https://www.styled-components.com/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[reactstrap](https://www.npmjs.com/package/reactstrap)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Run The Project
+```
+$ yarn install
+```
+After installing packages with
 
-### Code Splitting
+```
+$ yarn start
+```
+You can run the project with.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+# Sample Picture from the Project
+![](src/images/project_photo_1.png)
+![](src/images/project_photo_2.png)
+![](src/images/project_photo_3.png)
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

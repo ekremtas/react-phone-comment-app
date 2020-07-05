@@ -31,17 +31,17 @@ const NavigationBar = () => {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink tag={Link} to="/phones">
+              <NavLink tag={Link} to="/react-phone-comment-app/phones">
                 Phones
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink tag={Link} to="/about">
+              <NavLink tag={Link} to="/react-phone-comment-app/about">
                 About Us
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink tag={Link} to="/add-phone">
+              <NavLink tag={Link} to="/react-phone-comment-app/add-phone">
                 Add Phone
               </NavLink>
             </NavItem>
