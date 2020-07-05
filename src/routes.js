@@ -1,4 +1,3 @@
-import React from "react";
 import { Phones, Homepage, Detail, About, AddPhonepage } from "./containers";
 
 const routes = [
@@ -9,25 +8,25 @@ const routes = [
     title: Phones,
   },
   {
-    path: "/react-phone-comment-app/phones",
+    path: "/phones",
     exact: false,
     component: Phones,
     title: Phones,
   },
   {
-    path: "/react-phone-comment-app/detail/:id",
+    path: "/detail/:id",
     exact: false,
     component: Detail,
     title: Phones,
   },
   {
-    path: "/react-phone-comment-app/about",
+    path: "/about",
     exact: false,
     component: About,
     title: Phones,
   },
   {
-    path: "/react-phone-comment-app/add-phone",
+    path: "/add-phone",
     exact: false,
     component: AddPhonepage,
     title: Phones,
